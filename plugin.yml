@@ -1,0 +1,29 @@
+name: HyperiumBW-S
+api: 5.0.0
+version: 3.0.0
+main: vixikhd\BedWarsSolo\BedWars
+author: OwoNico
+depends: ["ZenAPI"]
+  
+permissions:
+  hyperiumbw.cmd:
+    description: Permission to all BedWars commands
+    default: op
+  hyperiumbw.cmd.help:
+    description: Permission for /bw help
+    default: op
+  hyperiumbw.cmd.create:
+    description: Permission for /bw create
+    default: op
+  hyperiumbw.cmd.remove:
+    description: Permission for /bw remove
+    default: op
+  hyperiumbw.cmd.set:
+    description: Permission for /bw set
+    default: op
+  hyperiumbw.cmd.arenas:
+    description: Permission for /bw arenas
+    default: op
+  no.perm:
+    description: No permission just default
+    default: true
